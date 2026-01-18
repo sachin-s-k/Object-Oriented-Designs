@@ -3,9 +3,7 @@ package com.sachin.objectorienteddesigns.controllers;
 import com.sachin.objectorienteddesigns.Exceptions.EmptyMovesUndoOperationException;
 import com.sachin.objectorienteddesigns.models.Game;
 import com.sachin.objectorienteddesigns.models.GameStatus;
-import com.sachin.objectorienteddesigns.models.Move;
 import com.sachin.objectorienteddesigns.models.Player;
-import com.sachin.objectorienteddesigns.strategies.boatplayingstrategies.BotPlayingStrategies;
 import com.sachin.objectorienteddesigns.strategies.winningStrategies.GameWinningStrategy;
 
 import java.util.List;

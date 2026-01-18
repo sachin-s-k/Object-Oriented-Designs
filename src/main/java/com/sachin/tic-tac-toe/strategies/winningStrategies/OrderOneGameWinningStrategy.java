@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class OrderOneGameWinningStrategy implements  GameWinningStrategy {
+public class OrderOneGameWinningStrategy implements com.sachin.objectorienteddesigns.strategies.winningStrategies.GameWinningStrategy {
     private List<HashMap<Character,Integer>> rowCharCount;
     private  List<HashMap<Character,Integer>>colCharCount;
 

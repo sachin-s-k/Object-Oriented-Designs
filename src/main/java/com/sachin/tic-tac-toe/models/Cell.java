@@ -3,7 +3,7 @@ package com.sachin.objectorienteddesigns.models;
 public class Cell {
     private int row;
     private  int column;
-    private Symbol symbol;
+    private com.sachin.objectorienteddesigns.models.Symbol symbol;
 
 
 
@@ -23,10 +23,10 @@ public class Cell {
         this.column = column;
     }
 
-    public Symbol getSymbol() {
+    public com.sachin.objectorienteddesigns.models.Symbol getSymbol() {
         return symbol;
     }
-    public void setSymbol(Symbol symbol) {
+    public void setSymbol(com.sachin.objectorienteddesigns.models.Symbol symbol) {
         this.symbol = symbol;
     }
     public boolean isEmpty(){

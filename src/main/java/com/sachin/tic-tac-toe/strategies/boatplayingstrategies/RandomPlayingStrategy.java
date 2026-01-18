@@ -1,10 +1,14 @@
 package com.sachin.objectorienteddesigns.strategies.boatplayingstrategies;
 
 import com.sachin.objectorienteddesigns.models.*;
+import com.sachin.objectorienteddesigns.models.Board;
+import com.sachin.objectorienteddesigns.models.Cell;
+import com.sachin.objectorienteddesigns.models.Move;
+import com.sachin.objectorienteddesigns.models.Player;
 
 import java.util.List;
 
-public class RandomPlayingStrategy implements BotPlayingStrategies{
+public class RandomPlayingStrategy implements com.sachin.objectorienteddesigns.strategies.boatplayingstrategies.BotPlayingStrategies {
     @Override
     public Move makeMove(Board board, Player player) {
       for(List<Cell> row:board.getBoard()){

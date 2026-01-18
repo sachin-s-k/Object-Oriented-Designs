@@ -6,7 +6,7 @@ import java.util.List;
 public class Board {
 
  private int dimension;
- private List<List<Cell>> board;
+ private List<List<com.sachin.objectorienteddesigns.models.Cell>> board;
 
 
     public int getDimension() {
@@ -17,11 +17,11 @@ public class Board {
         this.dimension = dimension;
     }
 
-    public List<List<Cell>> getBoard() {
+    public List<List<com.sachin.objectorienteddesigns.models.Cell>> getBoard() {
         return board;
     }
 
-    public void setBoard(List<List<Cell>> board) {
+    public void setBoard(List<List<com.sachin.objectorienteddesigns.models.Cell>> board) {
         this.board = board;
     }
  public Board(int dimension){
@@ -32,7 +32,7 @@ public class Board {
 board.add(new ArrayList<>());
          for(int j=0;j<dimension; ++j){
 
-board.get(i).add(new Cell());
+board.get(i).add(new com.sachin.objectorienteddesigns.models.Cell());
          }
 
      }
@@ -41,14 +41,14 @@ board.get(i).add(new Cell());
  }
 
 
- public Cell getCell(int i , int j){
+ public com.sachin.objectorienteddesigns.models.Cell getCell(int i , int j){
         return board.get(i).get(j);
  }
 
  public  void printBoard(){
-        for (List<Cell> row:board){
+        for (List<com.sachin.objectorienteddesigns.models.Cell> row:board){
 
-            for (Cell cell:row){
+            for (com.sachin.objectorienteddesigns.models.Cell cell:row){
                 if(cell.getSymbol() ==null){
 
                     System.out.printf("|  |");
