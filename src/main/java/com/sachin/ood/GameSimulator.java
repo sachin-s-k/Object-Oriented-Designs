@@ -1,7 +1,6 @@
-package com.sachin.objectorienteddesigns;
 
 import com.sachin.ood.tictactoe.controllers.GameController;
-import com.sachin.objectorienteddesigns.models.*;
+
 import com.sachin.ood.tictactoe.models.Bot;
 import com.sachin.ood.tictactoe.models.DifficultyLevel;
 import com.sachin.ood.tictactoe.models.Game;
@@ -15,7 +14,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.List;
 
-@SpringBootApplication
+
 public class GameSimulator {
 
     public static void main(String[] args) {
